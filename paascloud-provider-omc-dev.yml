@@ -57,7 +57,7 @@ paascloud:
     interceptor:
       enable: true
   zk:
-    zkAddressList: paascloud-provider-zk:2181
+    zkAddressList: 192.168.150.131:2181
   oauth2:
     jwtSigningKey: paascloud
     client:
